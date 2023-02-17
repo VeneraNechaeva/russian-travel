@@ -19,11 +19,11 @@
     transition-duration: 0.4s;
     opacity: 0.8;
   }
-  
+
   .header__lang-link:last-of-type {
     margin-right: 0;
   }
-  
+
   .header__lang-link_active {
     text-decoration: underline;
   }
@@ -34,6 +34,5 @@
       max-height: 20px;
       line-height: 111%;
       font-size: 18px;
-      line-height: 20px;
     }
   }

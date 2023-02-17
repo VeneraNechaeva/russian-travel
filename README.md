@@ -8,7 +8,8 @@
 + **index.html** - основная страница сайта.
 ## Технологии
 Используются HTML, CSS, методолия БЭМ с файловой структурой Nested.
-
+## Ссылка на страницу
+https://veneranechaeva.github.io/russian-travel/
 
 
 

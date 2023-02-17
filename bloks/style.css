@@ -7,6 +7,7 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%; 
   text-rendering: optimizeLegibility;
+  min-width: 320px;
 }
 
 .page__container {
@@ -255,7 +256,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;
+  line-height: 106%;
   grid-area: title;
   
 }
@@ -456,7 +457,7 @@
 
 
 
-@media screen and (max-width: 1025px) { 
+@media screen and (max-width: 1279px) { 
   .page__padding-max {
     padding-right: 48px;
     padding-left: 48px;
@@ -504,7 +505,7 @@
 } 
 
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1023px) {
   .page__padding-max {
     padding-right: 24px;
     padding-left: 24px;
@@ -530,20 +531,29 @@
   .intro__text {
     max-width: 720px;
   }
+  .photo-grid {
+    gap: 16px;
+  }
   .place {
     grid-template-columns: 340px 1fr;
     column-gap: 28px;
+    padding-bottom: 72px;
+    
+    
   }
   .place__title {
     
     font-size: 42px;
-    line-height: 46px;
+    line-height: 110%;
+    padding-right: 10px;
+    
   }
   .place__paragraph {
     font-size: 16px;
+    margin-bottom: 25px;
   }
-  .place__image {
-    
+  .place__url-heading {
+    line-height: 100%;
   }
   .cover__link {
     min-height: 480px;
@@ -551,7 +561,10 @@
 }
 
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 650px) {
+  .page__container {
+   
+  }
   .page__padding-max {
     padding-right: 16px;
     padding-left: 16px;
@@ -577,8 +590,9 @@
   .header__lang-link {
     max-width: 22px;
     max-height: 20px;
-    align-self: center;
     line-height: 111%;
+    font-size: 18px;
+    line-height: 20px;
   }
   .lead__title {
     line-height: 44px;
@@ -608,7 +622,7 @@
     max-width: 288px;
   }
   .place {
-    
+    padding-bottom: 50px;
     grid-template-columns: 320px;
     grid-template-areas:
     "title"
@@ -640,7 +654,7 @@
   .cover__title {
     font-size: 32px;
     line-height: 35px;
-   
+    
   }
   .cover__subtitle {
     font-size: 14px;
@@ -659,7 +673,7 @@
     margin-right: 0;
     margin-bottom: 32px;
   }
-  .footer__item {
+  .footer__item:last-of-type {
     margin-bottom: 48px;
   }
   .footer__copyright {

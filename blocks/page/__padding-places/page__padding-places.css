@@ -1,25 +1,25 @@
 .page__padding-places {
-    padding-right: 148px;
-    padding-left: 148px;
-  }
+  padding-right: 148px;
+  padding-left: 148px;
+}
 
-  @media screen and (max-width: 1279px) {
-    .page__padding-places {
-        padding-right: 48px;
-        padding-left: 48px;
-      }
+@media screen and (max-width: 1279px) {
+  .page__padding-places {
+    padding-right: 48px;
+    padding-left: 48px;
   }
+}
 
-  @media screen and (max-width: 1023px) {
-    .page__padding-places {
-        padding-right: 24px;
-        padding-left: 24px;
-      }
+@media screen and (max-width: 1023px) {
+  .page__padding-places {
+    padding-right: 24px;
+    padding-left: 24px;
   }
+}
 
-  @media screen and (max-width: 650px) {
-    .page__padding-places {
-        padding-right: 0;
-        padding-left: 0;
-      }
+@media screen and (max-width: 650px) {
+  .page__padding-places {
+    padding-right: 0;
+    padding-left: 0;
   }
+}

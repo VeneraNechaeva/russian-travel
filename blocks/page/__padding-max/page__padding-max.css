@@ -1,7 +1,7 @@
 .page__padding-max {
-    padding-right: 148px;
-    padding-left: 148px;
-  }
+  padding-right: 148px;
+  padding-left: 148px;
+}
 
 @media screen and (max-width: 1279px) {
   .page__padding-max {
@@ -18,8 +18,8 @@
 }
 
 @media screen and (max-width: 650px) {
-    .page__padding-max {
-        padding-right: 16px;
-        padding-left: 16px;
-      }
+  .page__padding-max {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
 }

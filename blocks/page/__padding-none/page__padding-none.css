@@ -1,13 +1,11 @@
 .page__padding-none {
-    padding-right: 48px;
-    padding-left: 48px;
-  }
+  padding-right: 48px;
+  padding-left: 48px;
+}
 
-  @media screen and (max-width: 1279px) {
-    .page__padding-none {
-        padding-right: 0;
-        padding-left: 0;
-      }
+@media screen and (max-width: 1279px) {
+  .page__padding-none {
+    padding-right: 0;
+    padding-left: 0;
   }
-
-  
+}

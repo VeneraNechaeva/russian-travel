@@ -1,18 +1,16 @@
 .page__padding-bottom {
-    padding-bottom: 92px;
+  padding-bottom: 92px;
+}
+
+@media screen and (max-width: 1023px) {
+  .page__padding-bottom {
+    padding-bottom: 88px;
   }
+}
 
-  @media screen and (max-width: 1023px) {
-    .page__padding-bottom {
-        padding-bottom: 88px;
-      }
+
+@media screen and (max-width: 650px) {
+  .page__padding-bottom {
+    padding-bottom: 64px;
   }
-
-
-  @media screen and (max-width: 650px) {
-    .page__padding-bottom {
-        padding-bottom: 64px;
-      }
-    }
-
-  
+}

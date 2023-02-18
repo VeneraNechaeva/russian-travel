@@ -1,12 +1,12 @@
 .footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-bottom: 24px;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
 
 @media screen and (max-width: 650px) {
-    .footer {
-      flex-direction: column;
-    }
+  .footer {
+    flex-direction: column;
+  }
 }

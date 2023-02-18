@@ -1,0 +1,30 @@
+.header__lang-link {
+    padding-bottom: 6px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 117%;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    align-self: flex-end;
+    margin-right: 18px;
+    transition-duration: 0.4s;
+  }
+
+  .header__lang-link:hover {
+    transition: linear;
+    transition-duration: 0.4s;
+    opacity: 0.8;
+  }
+
+  .header__lang-link:last-of-type {
+    margin-right: 0;
+  }
+
+  @media screen and (max-width: 650px) {
+    .header__lang-link {
+      line-height: 111%;
+      font-size: 18px;
+    }
+  }
